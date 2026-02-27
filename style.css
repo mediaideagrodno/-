@@ -7,51 +7,6 @@
     font-style: normal;
 }
 
-@media (max-width: 768px) {
-    /* 1. Секция с печатью (Голос Гродно) */
-    .voice-container {
-        flex-direction: column !important; /* Ставим печать над видео */
-        align-items: center;
-        gap: 30px;
-    }
-
-    .seal-side {
-        transform: scale(0.8); /* Уменьшаем печать, чтобы влезла в экран */
-        margin-bottom: -20px;
-    }
-
-    .video-side {
-        width: 100% !important; /* Видео на всю ширину телефона */
-        padding: 0 10px;
-    }
-
-    /* 2. Слайдер "Моменты доброты" */
-    .video-slider-wrapper {
-        flex-direction: column; /* Кнопки-стрелки прыгают под видео */
-        gap: 15px;
-    }
-
-    .slider-arrow {
-        position: static !important; /* Убираем их с боков, там нет места */
-        transform: none !important;
-        margin: 0 10px;
-        display: inline-flex;
-    }
-
-    /* 3. Вертикальные видео на телефоне */
-    .vertical .yt-card {
-        height: 450px !important; /* Чуть короче для маленьких экранов */
-        width: auto;
-        margin: 0 auto;
-    }
-
-    /* 4. Заголовки */
-    .section-title, .video-block-title {
-        font-size: 24px !important; /* Чтобы длинные слова не резались */
-        text-align: center;
-    }
-}
-
 
 
 
